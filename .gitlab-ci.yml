@@ -1,0 +1,22 @@
+stages:
+  - build
+
+default:
+  image: docker:28.0.1
+  services:
+    - docker:28.0.1-dind
+  before_script:
+    - echo "$CI_REGISTRY_PASSWORD" | docker login $CI_REGISTRY -u $CI_REGISTRY_USER --password-stdin
+    - docker info
+
+variables:
+  DOCKER_TLS_CERTDIR: "/certs"
+  MATHJAX_VERSION: "3.2.0"
+
+build:
+  stage: build
+  script:
+    - docker build --build-arg MATHJAX_VERSION="$MATHJAX_VERSION" -t $CI_REGISTRY_IMAGE:$MATHJAX_VERSION .
+    - docker tag $CI_REGISTRY_IMAGE:$MATHJAX_VERSION $CI_REGISTRY_IMAGE:$CI_COMMIT_SHORT_SHA
+    - docker push $CI_REGISTRY_IMAGE:$MATHJAX_VERSION
+    - docker push $CI_REGISTRY_IMAGE:$CI_COMMIT_SHORT_SHA
