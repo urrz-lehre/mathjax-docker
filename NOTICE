@@ -1,0 +1,55 @@
+# NOTICE
+
+This product, **mathjax-docker**, is a derivative work that combines two
+independently‑released open‑source projects, both of which are distributed
+under the GNU Affero General Public License, Version 3.
+
+## Apache HTTPD
+Name: Apache HTTPD
+Original author(s): The Apache Software Foundation
+Repository: https://github.com/apache/httpd
+Link to LICENSE: https://github.com/apache/httpd/blob/trunk/LICENSE
+
+   Copyright [yyyy] [name of copyright owner]
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+## MathJax
+Name:          MathJax
+Original author(s): MathJax
+Repository:    https://github.com/mathjax/MathJax
+Link to LICENSE: https://github.com/mathjax/MathJax/blob/master/LICENSE
+
+   Copyright [yyyy] [name of copyright owner]
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+## mathjax-docker
+Copyright © 2026 Universität Regensburg  
+
+All modifications and new code contributed to **MyCombinedProject**
+are also licensed under the Apache License, Version 2.0.
+
+The full text of the AGPL3.0 license is provided in the file
+`LICENSE` at the top level of this repository.
+s
