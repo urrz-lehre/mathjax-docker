@@ -22,3 +22,4 @@ After that, MathJax should be served at `http://0.0.0.0:80`.
 
 This project combines MathJax (Apache 2.0 License) and Apache HTTPD (Apache 2.0 License).  
 All original copyright notices are preserved. See `NOTICE` for the full details.
+Licensed under AGPLv3 or later.
